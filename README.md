@@ -17,7 +17,7 @@ Ví dụ Muốn connect tới server 2:
 ```
 
 ## Thuật toán đồng thuận Raft:
-* Ở đây tôi sẽ chọn server 1 làm node leader thì khi có dữ liệu với đầu vào miễn có từ đầu là **client** giả sử là request bên ngoài gọi vòa leader thì dữ liệu sẽ được truyên đi cho các node còn lại.
+* Ở đây tôi sẽ chọn server 1 làm node leader thì khi có dữ liệu với đầu vào miễn có từ đầu là **client** giả sử là request bên ngoài gọi vào leader thì dữ liệu sẽ được truyên đi cho các node còn lại.
 ```
     client hello world
 ```
